@@ -1,10 +1,5 @@
 /*
-ERICK ESTUARDO MONTERROSO VILLATORO
-090-15-9458
-PROGRAMACION 1
-
-SE CREA ESTE PROGRAMA CON EL FIN DE CREAR UN CONTROL ACEDEMICO
-MANEJANDO ARBOLES Y PILAS DINAMICOS.
+ERICK Monterroso
 -NOTA: SE ACTIVO -std = c ++ 14
 codeblocks  -17.12- 06/2020
 */
@@ -14,10 +9,10 @@ codeblocks  -17.12- 06/2020
 #include <string>//para uso de cadenas
 #include <sstream>//Encabezado que proporciona clases de secuencia de cadena
 #include <vector> //para uso de vectores
-#include <experimental/optional>//objetos grandes que han sido asignados dinámicamente y ya están gestionados por punteros
+#include <experimental/optional>//objetos grandes que han sido asignados dinÃ¡micamente y ya estÃ¡n gestionados por punteros
 #include <string.h>//Asignatura de mas cadenas
-#include <stdlib.h>// gestión dinámica de la memoria
-#include <limits>//Proporciona información sobre las propiedades de los tipos aritméticos
+#include <stdlib.h>// gestiÃ³n dinÃ¡mica de la memoria
+#include <limits>//Proporciona informaciÃ³n sobre las propiedades de los tipos aritmÃ©ticos
 #include<stdio.h>
 
 using namespace std; //declaracion estandar
@@ -203,7 +198,7 @@ void carga(){
     ss >> person.numerodecasa;
     ss.ignore(10, delim);
     ss >> person.num;
-    if (ss) persons.push_back(person);//se usa para insertar elementos en un vector desde atrás
+    if (ss) persons.push_back(person);//se usa para insertar elementos en un vector desde atrÃ¡s
   }
 
   for (unsigned int i = 0; i < persons.size(); i++) {

@@ -1,7 +1,5 @@
 /*
-ERICK Monterroso
--NOTA: SE ACTIVO -std = c ++ 14
-codeblocks  -17.12- 06/2020
+ERICK MONTERROSO
 */
 #include <iostream>  //Libreria para el flujo de entrada y salida
 #include <fstream> //Manejo de archivos
